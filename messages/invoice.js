@@ -1,0 +1,17 @@
+module.exports = {
+  INVOICE_CREATED: 'Invoice created successfully',
+  INVOICE_UPDATED: 'Invoice updated successfully',
+  INVOICE_DELETED: 'Invoice cancelled successfully',
+  INVOICE_NOT_FOUND: 'Invoice not found',
+  INVOICE_FETCHED: 'Invoice retrieved successfully',
+  INVOICES_FETCHED: 'Invoices retrieved successfully',
+  INVOICE_SENT: 'Invoice sent successfully',
+  INVOICE_ALREADY_SENT: 'Invoice has already been sent',
+  INVOICE_NOT_DRAFT: 'Only draft invoices can be modified',
+  INVOICE_DUPLICATED: 'Invoice duplicated successfully',
+  INVALID_ALLOCATIONS: 'Vendor allocations exceed available amount',
+  CLIENT_REQUIRED: 'Client is required to create an invoice',
+  LINE_ITEMS_REQUIRED: 'At least one line item is required',
+  PDF_GENERATED: 'Invoice PDF generated successfully',
+  PAYMENT_LINK_CREATED: 'Payment link created successfully',
+};
