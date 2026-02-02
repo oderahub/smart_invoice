@@ -46,6 +46,9 @@ const ENDPOINT_CONFIGS = [
   {
     path: './endpoints/payouts/',
   },
+  {
+    path: './endpoints/dashboard/',
+  },
 ];
 
 function logEndpointMetaData(endpointConfigs) {
