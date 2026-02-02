@@ -4,7 +4,7 @@
 Tracking implementation progress for the Luzo DN Parsempo Smart Invoice & Payment System.
 
 **Start Date:** 2026-02-02
-**Current Phase:** Phase 1 - Foundation
+**Current Phase:** Phase 6 - Testing & Polish
 
 ---
 
@@ -38,7 +38,7 @@ Tracking implementation progress for the Luzo DN Parsempo Smart Invoice & Paymen
 - [x] `services/flutterwave/index.js` - Base HTTP client with auth
 
 ### Admin Authentication
-- [ ] Update `services/auth/login.js` - Admin login service
+- [x] Update `services/onboarding/login.js` - Admin login service
 - [x] `middlewares/admin-auth.js` - JWT authentication middleware
 
 ---
@@ -103,9 +103,9 @@ Tracking implementation progress for the Luzo DN Parsempo Smart Invoice & Paymen
 - [x] `endpoints/invoices/send.js`
 
 ### PDF Generation
-- [ ] Install puppeteer dependency
-- [ ] `services/invoices/generate-pdf.js`
-- [ ] `endpoints/invoices/pdf.js`
+- [x] Install puppeteer dependency
+- [x] `services/invoices/generate-pdf.js`
+- [x] `endpoints/invoices/pdf.js`
 
 ### Public Invoice View
 - [x] `services/invoices/get-public-invoice.js`
@@ -137,8 +137,8 @@ Tracking implementation progress for the Luzo DN Parsempo Smart Invoice & Paymen
 - [x] `services/payouts/retry-payout.js`
 
 ### Payout Worker
-- [ ] `workers/process-vendor-payouts.js`
-- [ ] Update `workers/index.js`
+- [x] `workers/process-vendor-payouts.js`
+- [x] Update `workers/index.js`
 
 ### Payment & Payout Endpoints
 - [x] `endpoints/payments/list.js`
