@@ -84,24 +84,23 @@ Tracking implementation progress for the Luzo DN Parsempo Smart Invoice & Paymen
 ## Phase 3: Invoice System (Days 7-10)
 
 ### Invoice CRUD
-- [ ] `services/invoices/create-invoice.js`
-- [ ] `services/invoices/list-invoices.js`
-- [ ] `services/invoices/get-invoice.js`
-- [ ] `services/invoices/update-invoice.js`
-- [ ] `services/invoices/delete-invoice.js`
-- [ ] `services/invoices/calculate-allocations.js`
-- [ ] `services/invoices/generate-invoice-number.js`
-- [ ] `endpoints/invoices/create.js`
-- [ ] `endpoints/invoices/list.js`
-- [ ] `endpoints/invoices/get.js`
-- [ ] `endpoints/invoices/update.js`
-- [ ] `endpoints/invoices/delete.js`
-- [ ] `endpoints/invoices/index.js`
+- [x] `services/invoices/create-invoice.js`
+- [x] `services/invoices/list-invoices.js`
+- [x] `services/invoices/get-invoice.js`
+- [x] `services/invoices/update-invoice.js`
+- [x] `services/invoices/delete-invoice.js`
+- [x] `services/invoices/calculate-allocations.js`
+- [x] `services/invoices/generate-invoice-number.js`
+- [x] `endpoints/invoices/create.js`
+- [x] `endpoints/invoices/list.js`
+- [x] `endpoints/invoices/get.js`
+- [x] `endpoints/invoices/update.js`
+- [x] `endpoints/invoices/delete.js`
 
 ### Send Invoice
-- [ ] `services/flutterwave/create-payment-link.js`
-- [ ] `services/invoices/send-invoice.js`
-- [ ] `endpoints/invoices/send.js`
+- [x] `services/flutterwave/create-payment-link.js`
+- [x] `services/invoices/send-invoice.js`
+- [x] `endpoints/invoices/send.js`
 
 ### PDF Generation
 - [ ] Install puppeteer dependency
@@ -109,13 +108,14 @@ Tracking implementation progress for the Luzo DN Parsempo Smart Invoice & Paymen
 - [ ] `endpoints/invoices/pdf.js`
 
 ### Public Invoice View
-- [ ] `endpoints/public/invoice-view.js`
-- [ ] `endpoints/public/invoice-viewed.js`
-- [ ] `endpoints/public/payment-callback.js`
-- [ ] `endpoints/public/index.js`
+- [x] `services/invoices/get-public-invoice.js`
+- [x] `services/invoices/mark-invoice-viewed.js`
+- [x] `endpoints/public/invoice-view.js`
+- [x] `endpoints/public/invoice-viewed.js`
+- [x] `endpoints/public/payment-callback.js`
 
 ### Messages
-- [ ] `messages/invoice.js`
+- [x] `messages/invoice.js`
 
 ---
 
