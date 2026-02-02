@@ -1,6 +1,7 @@
 const { createHandler } = require('@app-core/server');
 const { appLogger } = require('@app-core/logger');
 const loginService = require('@app/services/onboarding/login');
+const AuthenticationMessages = require('@app/messages/authentication');
 
 module.exports = createHandler({
   path: '/login',
@@ -15,6 +16,7 @@ module.exports = createHandler({
     const response = await loginService(payload);
     return {
       status: helpers.http_statuses.HTTP_200_OK,
+      message: AuthenticationMessages.LOGIN_SUCCESS,
       data: response,
     };
   },
