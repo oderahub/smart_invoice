@@ -25,6 +25,12 @@ const ENDPOINT_CONFIGS = [
   {
     path: './endpoints/onboarding/',
   },
+  {
+    path: './endpoints/clients/',
+  },
+  {
+    path: './endpoints/vendors/',
+  },
 ];
 
 function logEndpointMetaData(endpointConfigs) {
