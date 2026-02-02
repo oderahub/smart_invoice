@@ -31,6 +31,12 @@ const ENDPOINT_CONFIGS = [
   {
     path: './endpoints/vendors/',
   },
+  {
+    path: './endpoints/invoices/',
+  },
+  {
+    path: './endpoints/public/',
+  },
 ];
 
 function logEndpointMetaData(endpointConfigs) {
