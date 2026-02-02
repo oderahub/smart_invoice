@@ -37,6 +37,15 @@ const ENDPOINT_CONFIGS = [
   {
     path: './endpoints/public/',
   },
+  {
+    path: './endpoints/webhooks/',
+  },
+  {
+    path: './endpoints/payments/',
+  },
+  {
+    path: './endpoints/payouts/',
+  },
 ];
 
 function logEndpointMetaData(endpointConfigs) {
