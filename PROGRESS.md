@@ -122,36 +122,33 @@ Tracking implementation progress for the Luzo DN Parsempo Smart Invoice & Paymen
 ## Phase 4: Payment Flow (Days 11-14)
 
 ### Webhook Handling
-- [ ] `services/flutterwave/verify-webhook-signature.js`
-- [ ] `services/payments/process-webhook.js`
-- [ ] `services/payments/verify-payment.js`
-- [ ] `services/payments/calculate-fees.js`
-- [ ] `endpoints/webhooks/flutterwave.js`
-- [ ] `endpoints/webhooks/index.js`
+- [x] `services/flutterwave/verify-webhook-signature.js`
+- [x] `services/payments/process-webhook.js`
+- [x] `services/flutterwave/verify-transaction.js`
+- [x] `services/payments/calculate-fees.js`
+- [x] `endpoints/webhooks/flutterwave.js`
 
 ### Vendor Payouts
-- [ ] `services/flutterwave/initiate-transfer.js`
-- [ ] `services/flutterwave/get-transfer-status.js`
-- [ ] `services/flutterwave/get-balance.js`
-- [ ] `services/payouts/process-invoice-payouts.js`
-- [ ] `services/payouts/execute-payout.js`
-- [ ] `services/payouts/retry-payout.js`
+- [x] `services/flutterwave/initiate-transfer.js`
+- [x] `services/flutterwave/get-transfer-status.js`
+- [x] `services/flutterwave/get-balance.js`
+- [x] `services/payouts/process-invoice-payouts.js`
+- [x] `services/payouts/execute-payout.js`
+- [x] `services/payouts/retry-payout.js`
 
 ### Payout Worker
 - [ ] `workers/process-vendor-payouts.js`
 - [ ] Update `workers/index.js`
 
 ### Payment & Payout Endpoints
-- [ ] `endpoints/payments/list.js`
-- [ ] `endpoints/payments/get.js`
-- [ ] `endpoints/payments/index.js`
-- [ ] `endpoints/payouts/list.js`
-- [ ] `endpoints/payouts/retry.js`
-- [ ] `endpoints/payouts/index.js`
+- [x] `endpoints/payments/list.js`
+- [x] `endpoints/payments/get.js`
+- [x] `endpoints/payouts/list.js`
+- [x] `endpoints/payouts/retry.js`
 
 ### Messages
-- [ ] `messages/payment.js`
-- [ ] `messages/payout.js`
+- [x] `messages/payment.js`
+- [x] `messages/payout.js`
 
 ---
 
