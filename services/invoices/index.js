@@ -8,6 +8,7 @@ const generateInvoiceNumber = require('./generate-invoice-number');
 const calculateAllocations = require('./calculate-allocations');
 const getPublicInvoice = require('./get-public-invoice');
 const markInvoiceViewed = require('./mark-invoice-viewed');
+const generatePdf = require('./generate-pdf');
 
 module.exports = {
   createInvoice,
@@ -20,4 +21,5 @@ module.exports = {
   calculateAllocations,
   getPublicInvoice,
   markInvoiceViewed,
+  generatePdf,
 };
